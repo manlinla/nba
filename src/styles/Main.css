@@ -1,16 +1,12 @@
 .main {
+    border: 3px solid #cccccc;
     width: 750px;
     margin: auto; /* center */
-    background-color: #cccccc;
     border-radius: 10px; /* rounded corners */
     box-shadow: 5px 10px 10px #888;
     display: flex; /* auto adjust the parent size, can also seperate the divs */
 }
 
-.profile {
-    /* float: left; */ /*have the content float at left*/
-    width: 300px;
-}
 
 .shotchart {
     flex: 1 1 auto; /*mdn flex: flex-grow, flex-shrink, flex-basis*/
