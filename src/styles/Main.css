@@ -5,10 +5,12 @@
     border-radius: 10px; /* rounded corners */
     box-shadow: 5px 10px 10px #888;
     display: flex; /* auto adjust the parent size, can also seperate the divs */
+    margin-top: 70px;
+    overflow: hidden;
 }
 
 
-.shotchart {
+.ShotChart {
     flex: 1 1 auto; /*mdn flex: flex-grow, flex-shrink, flex-basis*/
 }
 /*.clear {*/
